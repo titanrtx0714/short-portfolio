@@ -1,0 +1,57 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+.page {
+  transition: 0.45s all;
+}
+button:focus {
+  outline: 0px dotted;
+  outline: 0px auto -webkit-focus-ring-color;
+}
+
+/* .pages-stack.pages-stack--open {
+  perspective: 1200px;
+} */
+div#__next {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.pages-stack {
+  /* height: 100vh; */
+  overflow: hidden;
+}
+
+.pages-nav__item a {
+  cursor: pointer;
+  color: #fff !important;
+}
+
+.ti-cursor {
+  margin-left: 5px;
+}
+
+/* image popup */
+img.mfp-img {
+  box-shadow: 0 0 8px rgb(0 0 0 / 60%);
+  position: absolute;
+  max-height: 392px;
+  padding: 0 !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.mfp-img-container .mfp-content {
+  max-width: 400px !important;
+}
+.mfp-img-container .mfp-close {
+  top: -110px;
+  right: -24px;
+}
+
+.slick-slider {
+  margin: 0 -15px;
+}
+.slick-slide {
+  padding: 0 15px;
+}
