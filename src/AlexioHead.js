@@ -20,7 +20,7 @@ const AlexioHead = () => {
      ========================================================================
      */}
       {/* Page Title */}
-      <title>Alexio - Personal Portfolio React NextJS Template</title>
+      <title>Tara - Personal Portfolio</title>
       {/* / */}
       {/*-Font Icon*/}
       <link
